@@ -1,12 +1,16 @@
-import { useState } from 'react'
+import Test from './test'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
+  const name = "Karan"
   return (
-    <h1>React | Rohit</h1>
-  )
+    <>
+    <Test />
+    <h1>React | {name}</h1>
+    </>
+    
+  );
 }
 
 export default App
