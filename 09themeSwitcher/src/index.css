@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+/* Add this line to enable manual class-based dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Optional: Define global theme variables for easier management */
+@theme {
+  --color-brand-bg: light-dark(white, #1a1a1a);
+  --color-brand-text: light-dark(#1a1a1a, white);
+}
